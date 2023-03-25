@@ -1,0 +1,56 @@
+.hamburger {
+  display: none;
+}
+
+
+.hamburger-line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+}
+
+.mobile-nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+
+.mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-nav ul li {
+  padding: 1rem;
+  text-align: center;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem; /* Add font size */
+  font-weight: bold; /* Add font weight */
+  display: block; /* Add display block */
+  padding: 0.5rem 0; /* Add padding */
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+}

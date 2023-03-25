@@ -1,0 +1,28 @@
+.product-details {
+    display: flex;
+    padding: 2rem;
+  }
+  
+  .product-details .product-images {
+    flex: 1;
+    background-color: #ccc;
+    /* Add a background image or image gallery */
+  }
+  
+  .product-details .product-info {
+    flex: 1;
+    padding-left: 2rem;
+  }
+  
+  .product-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-details button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }  
